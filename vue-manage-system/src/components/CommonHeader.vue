@@ -31,7 +31,7 @@ export default {
   },
   data() {
     return {
-      userImg: require('../assets/images/user.png')
+      userImg: require('../assets/images/jace_sketch.jpg')
     }
   },
   methods: {

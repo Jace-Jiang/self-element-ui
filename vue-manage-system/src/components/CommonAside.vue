@@ -7,8 +7,8 @@
     text-color="#fff"
     active-text-color="#ffd04b"
   >
-    <h3 v-show="isCollapse">小滴</h3>
-    <h3 v-show="!isCollapse">小滴课堂后台管理系统</h3>
+    <h3 v-show="isCollapse">仁泉</h3>
+    <h3 v-show="!isCollapse">仁泉后台学习管理系统</h3>
     <el-menu-item :index="item.path" v-for="item in noChildren" :key="item.path" @click="clickMenu(item)">
       <i :class="'el-icon-' + item.icon"></i>
       <span slot="title">{{ item.label }}</span>
@@ -66,7 +66,7 @@ export default {
           icon: 'user'
         },
         {
-          label: '其他',
+          label: '其他功能页',
           icon: 'user',
           children: [
             {

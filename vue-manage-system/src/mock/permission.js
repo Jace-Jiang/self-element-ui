@@ -33,7 +33,7 @@ export default {
                 url: 'UserManage/UserManage'
               },
               {
-                label: '其他',
+                label: '其他功能页',
                 icon: 'location',
                 children: [
                   {

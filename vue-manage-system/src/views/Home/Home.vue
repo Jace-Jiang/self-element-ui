@@ -5,13 +5,13 @@
         <div class="user">
           <img :src="userImg" />
           <div class="userinfo">
-            <p class="name">Nick</p>
+            <p class="name">Jace Jiang</p>
             <p class="access">超级管理员</p>
           </div>
         </div>
         <div class="login-info">
-          <p>上次登录时间：<span>2019-10-20</span></p>
-          <p>上次登录地点：<span>北京</span></p>
+          <p>上次登录时间：<span>2019-11-12</span></p>
+          <p>上次登录地点：<span>深圳</span></p>
         </div>
       </el-card>
       <el-card shadow="hover" style="height: 522px; margin-top: 20px">
@@ -53,7 +53,7 @@ export default {
   },
   data() {
     return {
-      userImg: require('../../assets/images/user.png'),
+      userImg: require('../../assets/images/jace_sketch.jpg'),
       countData: [
         {
           name: '今日支付订单',
