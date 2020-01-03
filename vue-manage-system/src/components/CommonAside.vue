@@ -72,13 +72,13 @@ export default {
             {
               path: '/page1',
               name: 'page1',
-              label: '页面1',
+              label: '图片上传',
               icon: 'setting'
             },
             {
               path: '/page2',
               name: 'page2',
-              label: '页面2',
+              label: '图片轮播',
               icon: 'setting'
             }
           ]
